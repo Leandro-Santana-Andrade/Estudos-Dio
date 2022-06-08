@@ -1,6 +1,6 @@
 ![Bolo de milho](https://catracalivre.com.br/cdn-cgi/image/f=auto,q=60,w=640,h=360,fit=cover/wp-content/uploads/2021/07/img-6830.jpg)
 
-# Pão de queijo
+# Bolo de milho
 
 **INGREDIENTES**
 
