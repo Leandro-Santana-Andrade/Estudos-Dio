@@ -21,6 +21,4 @@
 
 3. Despeje a massa em uma assadeira untada e leve para assar, em um forno com temperatura média a 180°C, preaquecido por 40 minutos.
 
-######_Fonte_ : https://www.tudogostoso.com.br/receita/94018-bolo-de-milho-cremoso.html
-
-
+######Fonte: https://www.tudogostoso.com.br/receita/94018-bolo-de-milho-cremoso.html
