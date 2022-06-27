@@ -2,15 +2,23 @@ body {
     background: gray;
 }
 
+img {
+    border-radius: 20px;
+}
+
 #imagem_topo {
     height: 200px;
 }
 
 .imagem_codigo {
     height: 350px;
+    border: 2px solid rgb(0, 0, 0);
 }
 
-#titulo, .subtitulo, .titulo_post, footer {
+#titulo,
+.subtitulo,
+.titulo_post,
+footer {
     color: blue;
     margin: 10px;
 }
@@ -25,5 +33,5 @@ body {
     background: white;
     padding: 10px;
     border: 2px solid black;
-    margin: 10px;    
+    margin: 10px;
 }
