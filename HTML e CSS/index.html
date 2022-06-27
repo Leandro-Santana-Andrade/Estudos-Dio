@@ -1,35 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title>Primeiro Site</title>
 </head>
 
 <body>
     <header>
-        <h1>Primeiro Site</h1>
-        <img style="height: 300px;" src="img/Site.png" alt="Imagine de esquema de site" >
+        <h1 id="titulo">Primeiro Site</h1>
+        <img id="imagem_topo" src="img/Site.png" alt="Imagine de esquema de site" >
+       <!--<p>Site ediatado por: Leandro Santana</p>-->
     </header>
     <section>
         <header>
-            <h2>Posts</h2>
+            <h2 class="subtitulo">Posts</h2>
         </header>
-        <article>
+        <article class="post" >
             <header>
-                <h3>Post numero 1</h3>
-                <img style="height: 350px;" src="./img/html.jpg" alt="Imagem de codigo html" >
+                <h3 class="titulo_post">Post numero 1</h3>
+                <img class="imagem_codigo"src="./img/html.jpg" alt="Imagem de codigo html" >
             </header>
             <p>
                 "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
                 "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."<br>
-               <b><a href=https://lipsum.com/feed/html target="_blank">Acesse agora</a><br></b>
-               <a href="mailto:teste@teste.com.br"> Entre em contato por email</a><br>
-               <a href="tel:7121000000">Via telefone</a>
             </p>
         </article>
     </section>
-    <footer></footer>
+    <footer>
+        <b><a href=https://lipsum.com/feed/html target="_blank">Acesse agora</a><br></b>
+        <a href="mailto:teste@teste.com.br"> Entre em contato por email</a><br>
+        <a href="tel:7121000000">Via telefone</a>
+    </footer>
 </body>
 
 </html>

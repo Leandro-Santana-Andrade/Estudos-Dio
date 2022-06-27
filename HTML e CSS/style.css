@@ -1,0 +1,29 @@
+body {
+    background: gray;
+}
+
+#imagem_topo {
+    height: 200px;
+}
+
+.imagem_codigo {
+    height: 350px;
+}
+
+#titulo, .subtitulo, .titulo_post, footer {
+    color: blue;
+    margin: 10px;
+}
+
+.titulo_post {
+    font-size: 14px;
+    font-style: italic;
+    margin: 10px;
+}
+
+.post {
+    background: white;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;    
+}
