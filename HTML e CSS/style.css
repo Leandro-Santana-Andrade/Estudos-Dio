@@ -4,13 +4,16 @@ body {
     background-image: url("img/Site.png");
     max-width: 900px;
     margin: auto;
+    padding: 15px;
 }
 
 #imagem_perfil {
     height: 150px;
     border: 2px solid rgba(16, 16, 16, 0.815);
     border-radius: 100px;
-    margin: 15px;
+    margin: auto;
+    display: block;
+
 }
 
 .imagem_codigo {
