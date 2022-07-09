@@ -1,0 +1,80 @@
+body {
+    background: rgba(7, 169, 244, 0.398);
+    font-family: Verdana;
+    background-image: url("img/Site.png");
+    max-width: 900px;
+    margin: auto;
+    padding: 15px;
+}
+
+#imagem_perfil {
+    height: 150px;
+    border: 2px solid rgba(16, 16, 16, 0.815);
+    border-radius: 100px;
+    margin: auto;
+    display: block;
+
+}
+
+.imagem_codigo {
+    height: 350px;
+    border: 1px solid rgba(16, 16, 16, 0.815);
+    border-radius: 10px;
+    width: 100%;
+}
+
+#titulo,
+.subtitulo {
+    background-color: white;
+    border: 1px solid rgba(16, 16, 16, 0.815);
+    margin: 10px;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#titulo,
+.subtitulo,
+.titulo_post,
+footer {
+    color: rgba(16, 16, 16, 0.815);
+    margin: 10px;
+}
+
+.titulo_post {
+    font-size: 16px;
+    font-style: italic;
+    margin: 10px;
+}
+
+.post {
+    background: white;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.paragrafo {
+    margin: 5px 0 0 0;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.lista_contato {
+    list-style-type: none;
+    background-color: white;
+    border: 1px solid rgba(16, 16, 16, 0.815);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.lista_contato li a {
+    color: rgba(16, 16, 16, 0.815);
+}
+
+a {
+    color: rgba(158, 5, 5, 0.619);
+}
