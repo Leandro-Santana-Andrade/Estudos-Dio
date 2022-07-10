@@ -71,6 +71,7 @@ footer {
     padding: 10px;
     max-width: auto;
     display: flex;
+    justify-content: center;
 }
 
 .lista_contato li a {
