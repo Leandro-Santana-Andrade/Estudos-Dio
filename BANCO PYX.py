@@ -20,7 +20,7 @@ while True:
 
     if opcao == 1:
         # Opcao de deposito
-        valor = int(input("Quanto deseja depósitar? "))
+        valor = float(input("Quanto deseja depósitar? "))
         if ( valor > 0 ):
           extrato += (f"Desposito realizado no valor de R$ {valor:.2f}\n")
           saldo += valor
@@ -31,7 +31,7 @@ while True:
     elif opcao == 2:
         # Opcao de saque
         if numero_saques < limite_saques:     
-            saque = (int(input("Quanto deseja sacar? ")))
+            saque = (float(input("Quanto deseja sacar? ")))
              # Valida se possui saldo e se esta dentro do limite diario         
             if saque > saldo or limite < saque:
                 print("Operacao nao permitida, valor insuficiente ou limite diario excedido")
