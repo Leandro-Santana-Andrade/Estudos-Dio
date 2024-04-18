@@ -1,5 +1,4 @@
-import os
-
+import os # Adicionado para utilizar a opção de limpar menu
 menu = """ 
             BANCO PYX
 [1] Depositar
@@ -27,21 +26,24 @@ while True:
           saldo += valor
           os.system('clear')
         else:
-            print("Valor invalido") 
+            print("Valor invalido, tente novamente!") 
 
     elif opcao == 2:
         # Opcao de saque
         if numero_saques < limite_saques:     
             saque = (int(input("Quanto deseja sacar? ")))
-                      
+             # Valida se possui saldo e se esta dentro do limite diario         
             if saque > saldo or limite < saque:
                 print("Operacao nao permitida, valor insuficiente ou limite diario excedido")
+                print(f"Limite diario R$ {limite}")
+                print(f"Saldo em conta R$ {saldo:.2f}")
             else:
                 saldo = saldo - saque
                 extrato += (f"Saque realizado no valor de R$ {saque:.2f}\n")
                 numero_saques += 1
                 os.system('clear')
         else:
+            # Informa que nao ha mais limite para saque e eliminar opção de sacar do menu
             print("Limite de saques excedido")
             menu = """ 
             BANCO PYX
@@ -50,8 +52,8 @@ while True:
 [0] Sair
 
 =>"""
-
     elif opcao == 3:
+    # Opção de extrato
         if extrato == "":
             print("\n Nao foram realizadas movimentacoes")
         else:
@@ -60,6 +62,7 @@ while True:
             print(f"Saldo atual da conta R$ {saldo:.2f}")
             
     elif opcao == 0:
+    # Opção de sair da aplicação
         print('''
         Obrigado por utilizar nosso servico!
         ''')
